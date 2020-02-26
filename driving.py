@@ -6,9 +6,11 @@ if country == '中国':
     	 print("你可以考驾照")
     else:
     	print("你还不可以考驾照")
-if country == '美国':
+elif country == '美国':
 	if age >= 16:
 		print("美国人你可以考驾照")
 	else:
 		 print("美国人你还不能考驾照")
+else:
+	print("你只能输入中国或者美国")
   	 
